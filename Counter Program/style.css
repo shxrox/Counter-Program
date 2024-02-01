@@ -1,0 +1,38 @@
+*{
+  background-color: bisque;
+}
+
+#countLable{
+display: block;
+text-align: center;
+font-size: 10em;
+font-family:Helvetica;
+
+}
+
+.myH1{
+    text-align: center;
+    font-size: 2.5em;
+    font-family:Helvetica;
+
+}
+
+#btnContainer{
+  text-align: center;
+
+}
+
+.butons{
+  padding: 10px 20px;
+  font-size: 1.5em;
+  color: aliceblue;
+  background-color: hsl(214, 100%, 74%);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-colour 0.25s;
+
+}
+
+.butons:hover{
+    background-color:  hsl(214, 100%, 56%);
+}
